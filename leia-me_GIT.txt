@@ -1,0 +1,26 @@
+Conectar
+https://github.com/marcelofreire/appAndroid.git
+
+com ssh
+git@github.com:marcelofreire/appAndroid.git
+
+
+…or create a new repository on the command line
+
+echo "# appAndroid" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/marcelofreire/appAndroid.git
+git push -u origin master
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin git@github.com:marcelofreire/appAndroid.git
+git push -u origin master
+
+
+git config --global user.email marcelofreire.git@gmail.com
+
