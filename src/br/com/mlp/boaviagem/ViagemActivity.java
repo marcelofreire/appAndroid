@@ -1,5 +1,8 @@
 package br.com.mlp.boaviagem;
 
+import android.app.Activity;
+import android.os.Bundle;
+
 
 public class ViagemActivity extends Activity {
 	
